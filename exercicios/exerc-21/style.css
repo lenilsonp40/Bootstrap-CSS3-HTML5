@@ -1,18 +1,18 @@
-h1 {
+h1 {/* box-level */
     background-color: blueviolet;
     height: 50px;
     width: 450px;
     margin: auto;
-    border-width: 10px;
-    border-style: solid;
-    border-color: aquamarine;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 1px;
+
+    
+    border: 10px solid darkslategray;
+
+    padding: 10px;
+
+    margin: 20px auto 20px auto;
 }
 
-a {
+a { /* inline-level */
     border-width: 05px;
     border-style: solid;
     border-color: red;
