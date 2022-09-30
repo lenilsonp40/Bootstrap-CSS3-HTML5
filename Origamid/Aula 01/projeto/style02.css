@@ -1,0 +1,21 @@
+h1 {
+    color: darkgreen;
+}
+.hoje {
+    color: darkred;
+}
+.amanha {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none; /* tirar o sublinhado */
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
