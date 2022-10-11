@@ -35,17 +35,21 @@ img {
     border-radius: 4px;
     font-size: 20px;
     grid-column: 1/ -1 ;
+    
 }
 
 .grid {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: start;
+    grid-template-rows: repeat(3, auto) 1fr;
 
 }
 
 .foto {
-    grid-column: 1 / -1;
+    grid-column: 1;
+    grid-row: 2 / 5;
 }
 
 .descricao {
@@ -56,4 +60,9 @@ img {
     background: #ddd;
     padding: 5px 10px;
     border-radius: 4px;
+    grid-row: 2 ;
+}
+
+.titulo {
+    grid-column: 1 / -1;
 }
