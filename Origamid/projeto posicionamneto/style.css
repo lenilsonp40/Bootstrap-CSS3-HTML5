@@ -34,7 +34,7 @@ p {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-}
+} /* Tenho que centralizar essse menu */
 
 .menu a {
     display: block;
