@@ -29,6 +29,13 @@ p {
 
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
 .menu {
     display: flex;
     gap: 20px;
@@ -77,6 +84,11 @@ p {
     font-size: 2rem;
 }
 
+.introducao-cover img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .botao {
     background: #e21;
     color: #fff;
@@ -109,6 +121,7 @@ p {
     padding: 40px;
     align-self: center;
     background-image: url(./onda.svg);
+    /* word-break: break-all; */ serve para quebrar a palavra
 }
 
 .vantagens {
@@ -141,11 +154,15 @@ p {
     box-sizing: border-box;
 }
 
+@media (max-width: 1000px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
 
-p,
-h1,
-h2,
-h3 {
-  margin: 0px;
+    .subtitulo {
+        text-align: center;
+    }
 }
+
+
 
