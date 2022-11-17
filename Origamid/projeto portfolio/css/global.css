@@ -23,3 +23,18 @@ img {
     display: block;
 }
 
+.subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all; /* quebra a palavra experiencia */
+    max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial;
+    }
+}
