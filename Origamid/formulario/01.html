@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="01.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nomes" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="o formato é @nome">
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade">
+
+        <div class="checkbox">
+            <input type="checkbox" id="termos" name="termos" value="aceito">
+            <label for="termos">Aceito os termos e condições da empresa</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="anuncio" name="anuncio">
+            <label for="anuncio">Desejo receber anúncios.</label>
+        </div>
+
+        <p>Entrega:</p>
+        <div class="radio">
+            <input type="radio" id="retirada" name="retirada">
+            <label for="retirada">Retirar no local.</label>
+        </div>
+        <div class="radio">
+            <input type="radio" id="entrega" name="retirada">
+            <label for="entrega">Entregar em casa.</label>
+        </div>
+
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
