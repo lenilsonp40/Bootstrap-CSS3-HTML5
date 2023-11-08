@@ -1,2 +1,2 @@
 # HTML5-CSS3
- Exercícios dos cursos de HTML e CSS.
+ Projetos e teoria utilizando Bootstrap, HTML e CSS.
